@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#result 
+{
+width: 100% !important;
+padding: 15px;
+text-align: right;
+font-size: 35px;
+}
+
+.btn-lg 
+{
+width: 24.6% !important;
+height: auto !important;
+padding: 22px !important;
+}
+
+@media only screen and (max-width:580px){
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+    #result 
+    {
+    width: 100% !important;
+    padding: 10px;
+    text-align: right;
+    font-size: 35px;
+    }
+    
+    .btn-lg 
+    {
+    width: 25% !important;
+    height: auto !important;
+    padding: 22px !important;
+    } 
+}
